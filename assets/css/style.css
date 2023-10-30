@@ -792,17 +792,16 @@ main {
  */
 
 .clients {
-  margin-bottom: 15px;
+  margin-bottom: 50px;
 }
 
 .clients-list {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center !important;
   gap: 15px;
   margin: 0 -15px;
-  padding: 25px;
-  padding-bottom: 25px;
+  padding: 5px 25px;
   overflow-x: auto;
   scroll-behavior: smooth;
   overscroll-behavior-inline: contain;
@@ -917,6 +916,7 @@ main {
 
 .skills-list {
   padding: 20px;
+  margin: 20px;
 }
 
 .skills-item:not(:last-child) {
@@ -1359,7 +1359,7 @@ textarea.form-input::-webkit-resizer {
    */
 
   .clients-item {
-    min-width: calc(33.33% - 10px);
+    min-width: calc(25% - 10px);
   }
 
   /**
@@ -1618,12 +1618,13 @@ textarea.form-input::-webkit-resizer {
   .clients-list {
     gap: 50px;
     margin: 0 -30px;
-    padding: 45px;
+    align-items: center !important;
+    padding: 5px 25px;
     scroll-padding-inline: 45px;
   }
 
   .clients-item {
-    min-width: calc(33.33% - 35px);
+    min-width: calc(25% - 35px);
   }
 
   /**
@@ -1801,6 +1802,15 @@ textarea.form-input::-webkit-resizer {
     width: max-content;
     margin-left: auto;
   }
+
+  .skill-section {
+    display: flex;
+  }
+
+  .skills-list {
+    padding: 20px;
+    width: 50%;
+  }
 }
 
 /**
@@ -1971,8 +1981,8 @@ textarea.form-input::-webkit-resizer {
   }
 
   .main-content {
-    min-width: 75%;
-    width: 75%;
+    min-width: 70%;
+    width: 70%;
     margin: 0;
   }
 
